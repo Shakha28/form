@@ -1,0 +1,12 @@
+.shikoyatlar{
+    border-style: solid;
+    border-color: brown;
+    margin: 50px;
+    background-color: aqua;
+    padding: 100px;
+    min-height: 50vh;
+    display: inline-block;
+}
+.shikoyatlar i{
+   font-size: 50px;
+}

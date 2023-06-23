@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shikoyatlar</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="loginimages/ramz.png" />
+    <link rel="stylesheet" href="LoginForm.css" />
+    <link rel="stylesheet" href="shikoyatlar.css" />
+    <link rel="stylesheet" type="text/css" href="shikoyatlar.css" />
+  </head>
+  <body>
+    <nav>
+      <div id="translation" class="languages">
+        <p id="eng">English</p>
+        <p id="polish">Polish</p>
+        <p id="ru">Russian</p>
+        <p id="uz">Uzbek</p>
+      </div>
+    </nav>
+    <header class="headersection">
+      <div class="headerimage">
+        <h3>O'zbekiston Respublikasi <br />Tashqi Ishlar <br />Vazirligi</h3>
+        <img src="/loginimages/ramz.png" alt="image" />
+        <h3>
+          Polsha Davlatidagi <br />Elchixonaga Ro'yxatdan Otish <br />Partali
+        </h3>
+      </div>
+    </header>
+
+    <section>
+      <div class="shikoyatlar">
+        <h3>Shikoyatlar Bo'limi</h3>
+        <span><i class="fa-solid fa-user-check"></i></span>
+        <h1>Blankani To'ldiring</h1>
+        <form method="POST" action="shikoyatlar.php">
+          <label for="name">Ism: </label>
+          <input type="text" name="name" id="name" required />
+          <br />
+          <label for="surname">Familiya:</label>
+          <input type="text" name="surname" id="surname" required />
+          <br />
+          <label for="number">Number:</label>
+          <input type="number" name="number" id="number" required /> <br />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,118 @@
+body{
+  margin: 0px;
+}
+header{
+    color: white;
+    background-color: blueviolet;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.headerimage{
+    font-size: 20px;
+    display: flex;
+    border-color:  rgb(72, 6, 134);
+    border-radius: 5px;
+    box-shadow:inset 4px 4px  10px rgb(36, 2, 68);
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.headerimage h3:first-child{
+    margin-left: 20px;
+}
+.headerimage img{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+   
+}
+nav{
+    margin: 0px;
+}
+.languages {
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+}
+.languages p {
+    margin: 0px;
+   padding: 6px;
+    background-color: blueviolet;
+    margin-top: 3px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    box-shadow: 3px 3px 7px rgb(36, 2, 68);
+}
+.languages p:hover{
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+    
+}
+
+.sectionmenu{
+    padding: 40px;
+}
+.sectionicons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+    box-shadow: 4px 4px 10px rgb(36, 2, 68);
+    padding: 20px;
+    justify-content: center;
+}
+.sectionicons a{
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgb(36, 2, 68);
+    transition: all 0.30s ease-in-out;
+   
+}
+.sectionicons a:hover{
+    background-color: blueviolet;
+    color: white;
+    transform: translateY(-7px);
+    transition: all .30s ease-in;
+}
+
+footer{
+    color: rgb(128, 125, 125);
+    background-color: rgb(56, 23, 78);
+    padding: 30px;
+}
+.footersection{
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 6px;
+    box-shadow: 2px 2px 5px rgb(194, 169, 27);
+}
+.informations p a{
+    text-decoration: none;
+    color: antiquewhite;
+    text-decoration: underline;
+}
+.phonee{
+    color: green;
+    margin-right: 5px;
+}
+.location{
+    color: yellowgreen;
+    margin-right: 5px;
+}
+.faks{
+    color: rgb(32, 132, 226);
+    margin-right: 5px;
+}
+
